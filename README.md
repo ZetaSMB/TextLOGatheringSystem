@@ -26,16 +26,16 @@ Under the /Doc folder a paper about this work (english version) and the complete
 Usage
 --
 The system can be configured from the Parameters.xml file. 
-Inside the *<SEEDS>* tags under the *<crawlerParameters>*, 
+Inside the *<< SEEDS >>* tag under the *<< crawlerParameters >>* tag, 
 URL's to crawl are expected (common separated values). 
 This ones are crawled looking for PDF files, which are downloaded and processed 
 to extract its metadata with differents tools. The web site structure is persisted 
 in a graph database using Neo4j.
 
-The correct use of *<postCrawlGraphTraversal>* and *<postCrawlLabeling>* values are explained in the Doc.
+The correct use of *<< postCrawlGraphTraversal >>* and *<< postCrawlLabeling >>* values are explained in the Doc.
 
 There are three local configurations which are mandatory to execute the program:
 
-- Neo4j Home Installation Directory must be included under *<parsCit_Home>* tag. More info at http://www.neo4j.org/
-- ParsCit Home Installation Directory must be included under *<parsCit_Home>* tag. More info at http://aye.comp.nus.edu.sg/parsCit/
-- Valid Alchemy API activation key must be included under *<alchemyApiKey>* tag. A Quote limited key can be requested at http://www.alchemyapi.com/
+- Neo4j Home Installation Directory must be included under *<< parsCit_Home >>*  tag. More info at http://www.neo4j.org/
+- ParsCit Home Installation Directory must be included under *<< parsCit_Home >>* tag. More info at http://aye.comp.nus.edu.sg/parsCit/
+- Valid Alchemy API activation key must be included under *<< alchemyApiKey >>* tag. A Quote limited key can be requested at http://www.alchemyapi.com/
