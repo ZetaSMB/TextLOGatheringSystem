@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<general>
+  
+  <crawlerParameters>
+  	<SEEDS>http://www.fceia.unr.edu.ar/~acasali/</SEEDS>    
+	<ONLY_SUBPATHS>true</ONLY_SUBPATHS>  	
+  </crawlerParameters>
+  
+  <parsCit_Home>
+  <!-- COMPLETE-->
+  </parsCit_Home>  
+  
+  <neo4j_Home>
+  <!-- COMPLETE-->
+  </neo4j_Home>  
+  
+  <alchemyApiKey>
+  <!-- COMPLETE-->
+  </alchemyApiKey> 
+  
+  <postCrawlGraphTraversal>
+	<max_depth_emaillist>3</max_depth_emaillist>  	
+	<key_max_depth_potentialauthorlist>3</key_max_depth_potentialauthorlist>
+	<key_confidence_lower_bound_potentialauthorlist_aapi>0.0</key_confidence_lower_bound_potentialauthorlist_aapi>	
+	<key_similarity_lower_bound_author_matching>0.7</key_similarity_lower_bound_author_matching>
+	<key_similarity_lower_bound_author_removeDups>0.55</key_similarity_lower_bound_author_removeDups>	
+	<key_max_depth_potentialfiliationlist>3</key_max_depth_potentialfiliationlist>
+	<key_confidence_lower_bound_potentialfiliationlist_aapi>0.0</key_confidence_lower_bound_potentialfiliationlist_aapi>
+	<key_similarity_lower_bound_filiation_matching>0.65</key_similarity_lower_bound_filiation_matching>	
+	<key_similarity_lower_bound_filiation_removeDups>0.6</key_similarity_lower_bound_filiation_removeDups>	
+  </postCrawlGraphTraversal>
+  
+  <stopWords_authors>
+  el,la,las,del,lo,los,ese,esa,del,rosario,mit,tesis,páginas,práctica,practica,prácticas,et al,clements,vocabulario,for
+  </stopWords_authors> 
+  
+  <stopWords_filiations>
+  el,la,las,del,lo,los,ese,esa,del,csp,abril,mit,tesis,páginas,práctica,practica,prácticas,et al,for,vocabulario
+  </stopWords_filiations> 
+  
+  <postCrawlLabeling>
+    <label>
+        <category>Material Educativo</category>
+        <subcategory>Práctica</subcategory>
+        <maxCharactersInDoc>1500</maxCharactersInDoc>
+        <matchingWords>práctica,prácticas,ejercicio,ejercicios,ejercitación,práctico</matchingWords>
+        <shouldApplyParsCitRule>false</shouldApplyParsCitRule>
+	</label>
+	<label>
+        <category>Material Educativo</category>
+        <subcategory>Apunte de Clase</subcategory>
+        <maxCharactersInDoc>1500</maxCharactersInDoc>
+        <matchingWords>apunte,apuntes,notas,material,clase,capítulo,capítulos</matchingWords>
+		<shouldApplyParsCitRule>false</shouldApplyParsCitRule>        
+	</label>
+	<label>
+        <category>Tesis</category>
+        <subcategory>null</subcategory>
+        <maxCharactersInDoc>1500</maxCharactersInDoc>
+        <matchingWords>tesis,tesina</matchingWords>
+		<shouldApplyParsCitRule>true</shouldApplyParsCitRule>        
+	</label>
+	<label>
+        <category>Publicación</category>
+        <subcategory>null</subcategory>
+        <maxCharactersInDoc>1500</maxCharactersInDoc>
+        <matchingWords>publicación,publicaciones</matchingWords>
+		<shouldApplyParsCitRule>true</shouldApplyParsCitRule>        
+	</label>
+  </postCrawlLabeling>
+</general>
