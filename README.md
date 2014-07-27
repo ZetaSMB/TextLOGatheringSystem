@@ -38,4 +38,4 @@ There are three local configurations which are mandatory to execute the program:
 
 - Neo4j Home Installation Directory must be included under *<< parsCit_Home >>*  tag. More info at http://www.neo4j.org/
 - ParsCit Home Installation Directory must be included under *<< parsCit_Home >>* tag. More info at http://aye.comp.nus.edu.sg/parsCit/
-- Valid Alchemy API activation key must be included under *<< alchemyApiKey >>* tag. A Quote limited key can be requested at http://www.alchemyapi.com/
+- Valid Alchemy API activation key must be included under *<< alchemyApiKey >>* tag. A Quote limited key can be freely requested at http://www.alchemyapi.com/
