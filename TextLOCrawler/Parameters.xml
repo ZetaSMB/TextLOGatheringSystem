@@ -7,15 +7,15 @@
   </crawlerParameters>
   
   <parsCit_Home>
-  <!-- COMPLETE-->
+  /home/zeta/Documentos/ParsCit-master/bin
   </parsCit_Home>  
   
   <neo4j_Home>
-  <!-- COMPLETE-->
+  /home/zeta/Documentos/neo4j-community-2.0.0
   </neo4j_Home>  
   
   <alchemyApiKey>
-  <!-- COMPLETE-->
+  9992916e9a4c9de72b2b92efd2c6400801ec7506
   </alchemyApiKey> 
   
   <postCrawlGraphTraversal>

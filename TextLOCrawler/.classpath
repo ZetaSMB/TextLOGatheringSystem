@@ -23,6 +23,12 @@
 	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/tagsoup-1.2.1.jar"/>
 	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/tika-core-1.0.jar"/>
 	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/tika-parsers-1.0.jar"/>
+	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/pdfBox/bcmail-jdk15-1.44.jar"/>
+	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/pdfBox/bcprov-jdk15-1.44.jar"/>
+	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/pdfBox/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/pdfBox/fontbox-1.8.2.jar"/>
+	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/pdfBox/jempbox-1.8.2.jar"/>
+	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/pdfBox/pdfbox-1.8.2.jar"/>
 	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/neo4j/concurrentlinkedhashmap-lru-1.3.1.jar"/>
 	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/neo4j/geronimo-jta_1.1_spec-1.1.1.jar"/>
 	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/neo4j/lucene-core-3.6.2.jar"/>
@@ -42,11 +48,5 @@
 	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/neo4j/parboiled-scala_2.10-1.1.6.jar"/>
 	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/neo4j/scala-library-2.10.3.jar"/>
 	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/neo4j/server-api-2.0.0.jar"/>
-	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/pdfBox/bcmail-jdk15-1.44.jar"/>
-	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/pdfBox/bcprov-jdk15-1.44.jar"/>
-	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/pdfBox/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/pdfBox/fontbox-1.8.2.jar"/>
-	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/pdfBox/jempbox-1.8.2.jar"/>
-	<classpathentry kind="lib" path="/home/zeta/Dropbox/workspace/lib/pdfBox/pdfbox-1.8.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
