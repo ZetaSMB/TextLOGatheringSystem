@@ -27,7 +27,7 @@ Usage
 --
 The system can be configured from the Parameters.xml file. 
 Inside the *<< SEEDS >>* tag under the *<< crawlerParameters >>* tag, 
-URL's to crawl are expected (common separated values). 
+URL's to crawl are expected (comma-separated values). 
 This ones are crawled looking for PDF files, which are downloaded and processed 
 to extract its metadata with differents tools. The web site structure is persisted 
 in a graph database using Neo4j.
